@@ -55,3 +55,27 @@ public:
 		return top == NULL;
 	}
 };
+
+int main() {
+	Stack stack;
+
+	int choise = 0;
+	int value;
+
+	while (choise != 5) {
+		cout << "1. Push\n";
+		cout << "1. Pop\n";
+		cout << "1. Peek\n";
+		cout << "1. Exit\n";
+		cout << "Enter your choise: ";
+		cin >> choise;
+
+		switch (choise) {
+		case 1:
+			cout << "Enter the value to push: ";
+			cin >> value;
+			stack.push(value);
+			break;
+		}
+	}
+}
