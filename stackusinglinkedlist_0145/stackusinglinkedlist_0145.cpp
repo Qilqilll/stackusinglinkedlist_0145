@@ -96,3 +96,11 @@ int main() {
 		case 4:
 			cout << "Exiting program." << endl;
 			break;
+		default:
+			cout << "invalid choise. Try again." << endl;
+			break;
+		}
+		cout << endl;
+	}
+	return 0;
+}
